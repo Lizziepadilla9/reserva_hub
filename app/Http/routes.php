@@ -27,3 +27,7 @@ Route::get('admin', 'AdminController@index');
 Route::get('admin', 'AdminController@index'); 
 Route::resource('admin/users', 'UserController');
 Route::get('home', function(){ return redirect('admin');});
+Route::get('reservation', 'AdminController@reservation');
+Route::get('reserved', 'AdminController@get_reservation');
+Route::get('company/reservation', 'CompanyController@reservation');
+Route::post('company/store_reservation', 'CompanyController@store_reservation');

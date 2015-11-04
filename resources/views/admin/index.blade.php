@@ -3,6 +3,22 @@
 @if(session('status')) 
 {{session('status')}}
 @endif
+
+
+
+@if (count($errors) > 0)
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endif
+
+
+
+<div id='calendar'></div>
 <a href="/admin/users/create">Crear Usuario</a>
 <div class="col-md-10 col-md-offset-1">
 	
@@ -80,3 +96,4 @@
 	{!!$users->render()!!}
 </div>
 @endsection
+

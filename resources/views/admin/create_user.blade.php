@@ -25,7 +25,12 @@
 
 	{!! csrf_field() !!}
 
-<input type="submit" value="Crear usuario"> 
+
+<div class="col-md-8 col-md-offset-2">  
+<input type="submit" class="btn btn-success" value="Crear usuario"> 
+</div>
+
+
 
 </form>
 @endsection

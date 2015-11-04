@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>TadeoSystems </title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -38,8 +38,8 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">Larjhjkhjhjh  
-                {{Auth::user()}}                                                                                                                                                avel 5</div>
+                <div class="title">Sistema de Reservaciones   
+                {{Auth::user()}}      </div>
             </div>
         </div>
     </body>

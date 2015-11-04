@@ -34,4 +34,17 @@ class UserUpdateRequest extends Request
         
         ];
     }
+      public function attributes()
+    {
+        return [     
+            'company_name'=>'Nombre de la compañia',
+            'representative'=>'Representante',
+            'email'=>'Correo',
+            'telephone'=>'Telefono',
+            'password'=>'Contraseña',
+
+        
+        
+        ];
+    }
 }

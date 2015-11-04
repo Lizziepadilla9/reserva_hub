@@ -4,6 +4,8 @@ namespace App\Http\Requests;
 
 use App\Http\Requests\Request;
 
+
+
 class UserCreateRequest extends Request
 {
     /**
@@ -31,4 +33,16 @@ class UserCreateRequest extends Request
 
         ];
     }
+
+    public function attributes()
+    {
+        return [
+            'company_name'=>'Nombre de la compañia',
+            'representative'=>'Representante',
+            'email'=>'Correo',
+            'telephone'=>'Telefono',
+
+        ];
+    }
+    
 }

@@ -21,13 +21,6 @@ class CreateReservationTable extends Migration
             $table->integer('company_id')->unsigned();
             $table->timestamps();
 
-
-
-
-
-
-
-
         });
 
 
